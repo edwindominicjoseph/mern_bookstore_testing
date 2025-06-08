@@ -1,0 +1,101 @@
+# ========================
+# Node Modules & Packages
+# ========================
+node_modules/
+.pnp/
+.pnp.js
+
+# Yarn/PNPM/Other Lockfiles (optional, if not using lockfile in CI)
+yarn.lock
+pnpm-lock.yaml
+shrinkwrap.yaml
+
+# ========================
+# Build Output
+# ========================
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+storybook-static/
+
+# ========================
+# Log Files
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================
+# Environment Config
+# ========================
+.env
+.env.*        # For Vite, Next.js, etc.
+*.local       # .env.local, vite.config.local, etc.
+.env.local
+# ========================
+# Coverage & Test Outputs
+# ========================
+coverage/
+.nyc_output/
+.jest/
+
+# ========================
+# Tool/Cache Directories
+# ========================
+.cache/
+.eslintcache
+.turbo/
+.vite/
+vite.cache/
+*.tsbuildinfo
+
+# ========================
+# OS / Editor Configs
+# ========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json  # Allow extension sharing
+!.vscode/settings.json    # Optional team settings
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Vim/Emacs/Swap
+*~
+*.sw?
+*.un~
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+.dockerignore
+
+# ========================
+# Miscellaneous
+# ========================
+*.pem
+*.key
+*.crt
+
+# Ignore lock screen screenshots (macOS)
+Screen\ Shot*.png
+
