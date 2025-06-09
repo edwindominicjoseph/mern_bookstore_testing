@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import BookCard from './books/bookcard'
+import BookCard from './books/BookCard'
 import { Pagination, Navigation } from 'swiper/modules'
 import { useFetchAllBooksQuery } from '../../redux/features/cart/books/booksApi'
 
