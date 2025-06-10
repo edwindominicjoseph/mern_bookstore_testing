@@ -16,27 +16,17 @@ This is a full-stack bookstore application built using the MERN stack with a foc
 
 ### ✅ Unit Tests Implemented
 
-| Component          | Description                                                  | Status     |
-|-------------------|--------------------------------------------------------------|------------|
-| `BookCard.jsx`     | ✅ Renders book info, dispatches addToCart, links to detail   | ✔️ Completed |
-| `Login.jsx`        | ✅ Renders form, submits valid login, handles auth errors     | ✔️ Completed |
-| `Register.jsx`     | ✅ Registers with valid data, handles error, Google Sign-In    | ✔️ Completed |
+
+| Component/Page     | Description                                                                 | Status       |
+|--------------------|------------------------------------------------------------------------------|--------------|
+| `BookCard.jsx`     | Renders book info, dispatches `addToCart`, links to detail page              | ✔️ Completed |
+| `Login.jsx`        | Renders form, submits valid login, handles auth errors                       | ✔️ Completed |
+| `Register.jsx`     | Registers with valid data, handles error, Google Sign-In                     | ✔️ Completed |
+| `Navbar.jsx`       | Avatar state toggle, cart count, logout, guest view                          | ✔️ Completed |
+| `CartPage.jsx`     | Displays cart items, calculates total                                        | ✔️ Completed |
+| `Topsellers.jsx`   | Fetches books, filters by category, renders Swiper with BookCards            | ✔️ Completed |
+
 
 ---
 
-### 📁 Folder Structure for Tests
 
-```bash
-src/
-├── components/
-│   ├── BookCard.jsx
-│   └── __tests__/BookCard.test.jsx
-├── pages/
-│   ├── Login.jsx
-│   ├── Register.jsx
-│   └── __tests__/
-│       ├── Login.test.jsx
-│       └── Register.test.jsx
-├── context/
-│   └── authcontext.js
-├── setupTests.js
