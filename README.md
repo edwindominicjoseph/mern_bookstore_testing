@@ -6,11 +6,15 @@ This is a full-stack bookstore application built using the MERN stack with a foc
 
 ## ✅ Current Progress: Testing Implementation
 
-### 🧪 Testing Stack
-- **Framework**: [Vitest](https://vitest.dev/)
-- **UI Testing**: [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
-- **Coverage**: Vite + built-in `v8` coverage provider
-- **Mocking**: Vitest's `vi.fn()` and custom hook mocks
+## 🧪 Testing Stack
+
+| Area        | Tool/Library                |
+|-------------|-----------------------------|
+| Framework   | **Vitest**                  |
+| UI Testing  | **React Testing Library**   |
+| Coverage    | **Vite + built-in v8**      |
+| Mocking     | **vi.fn()**, custom hooks   |
+| Store Mock  | `redux-mock-store`          |
 
 ---
 
