@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { MemoryRouter } from 'react-router-dom';
-import Navbar from '../Navbar';
+import Navbar from '../navbar';
 import configureStore from 'redux-mock-store';
 import { useAuth } from '../../context/authcontext';
 
