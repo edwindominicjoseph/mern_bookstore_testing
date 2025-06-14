@@ -5,7 +5,7 @@ import { MemoryRouter } from 'react-router-dom';
 import configureStore from 'redux-mock-store';
 import Topsellers from '../Topsellers';
 
-// 🧪 Mock Swiper modules & styles to avoid CSS/DOM errors in test
+// 🧪 Mock Swiper modules 
 vi.mock('swiper/react', () => ({
   Swiper: ({ children }) => <div>{children}</div>,
   SwiperSlide: ({ children }) => <div>{children}</div>,

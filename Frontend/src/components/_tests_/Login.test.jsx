@@ -2,6 +2,7 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Login from '../Login';
 import { useAuth } from '../../context/authcontext';
+import { describe, it, beforeEach, expect, vi } from 'vitest';
 
 
 vi.mock('../../context/authcontext', () => ({
